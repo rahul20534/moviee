@@ -1,0 +1,38 @@
+.componant {
+    display: flex;
+    position: relative;
+    top: 46vh;
+    height: 230px;
+    width: 1300px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scrollbar-width: none;
+    white-space: nowrap;
+    left: -10px;
+    z-index: 2;
+}
+
+.componant1 {
+    width: 140px;
+    height: 200px;
+    position: relative;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.componant1 img {
+    width: 140px;
+    height: 200px;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.componant1 img:hover {
+    width: 180px;
+    height: 230px;
+    border-radius: 20px;
+    position: relative;
+    bottom: 30px;
+}

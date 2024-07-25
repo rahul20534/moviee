@@ -1,0 +1,63 @@
+.navbar {
+    display: flex;
+    margin-left: 40px;
+    z-index: 5;
+}
+
+
+.navbar1 span {
+    background-color: rgb(227, 227, 2);
+    color: black;
+    padding: 5px;
+    border-radius: 4px;
+
+}
+
+.navbar1 h3 {
+    color: yellow;
+
+}
+
+.navbar2 {
+    justify-content: center;
+    position: relative;
+    left: 350px;
+}
+
+.navbar2 ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar2 ul li {
+    margin-left: 25px;
+    margin-right: 20px;
+    position: relative;
+
+
+
+}
+
+.navbar2 ul li:hover {
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    cursor: pointer;
+}
+
+.navbar3 {
+    position: relative;
+    left: 450px;
+    top: 18px;
+}
+
+.navbar3 img {
+    width: 20px;
+    height: 20px;
+}
+
+.navbar4 {
+    position: relative;
+    left: 390px;
+    top: -2px;
+    font-weight: 800;
+}
